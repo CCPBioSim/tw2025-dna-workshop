@@ -24,5 +24,5 @@ A Jupyter notebook and associated data files
 Contact
 -------
 
-Please direct all comments and queries to Shozeb Haider (shozeb.haider@ucl.ac.uk)
+Please direct all comments and queries to Shozeb Haider 
 
