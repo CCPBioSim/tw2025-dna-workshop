@@ -1,0 +1,9 @@
+Dependencies for the notebook (all under one environment)
+-----------------------------
+
+1. HTMD (python3.7)
+2. Ambertools
+3. Jupyter-notebook
+4. MDtraj
+5. Nglviewer
+6. webgl

@@ -1,0 +1,13 @@
+parm structure.prmtop
+
+trajin 01_Prod-1.nc 1 last
+trajin 01_Prod-2.nc 1 last
+
+autoimage
+
+#strip :WAT,K,CL
+rms fit :1-24
+
+trajout DNA_simulation.nc
+
+go
