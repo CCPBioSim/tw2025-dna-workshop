@@ -9,16 +9,9 @@ USER $NB_USER
 WORKDIR $HOME
 
 # Install workshop deps
-RUN conda install ipykernel ipywidgets nglview mdtraj matplotlib numpy ambertools compilers -y
+#RUN conda install -c acellera -c conda-forge ambertools htmd matplotlib mdtraj nglview numpy -y
 
-RUN conda create -n htmd python=3.10
-SHELL ["conda", "run", "-n", "htmd", "/bin/bash", "-c"]
-RUN conda install -c acellera -c conda-forge htmd -y
-RUN conda install nglview ipywidgets
-RUN echo 'conda activate htmd' >> /home/jovyan/.bashrc
-RUN jupyter labextension enable nglview
-RUN python -m ipykernel install --user --name=htmd
-
+RUN conda install -c acellera -c conda-forge ambertools htmd matplotlib mdtraj nglview numpy -y
 
 # Get workshop files and move them to jovyan directory.
 COPY --chown=1000:100 . .
