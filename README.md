@@ -1,6 +1,6 @@
-DNA Simulations workshop
-------------------------
-This workshop is a hands-on exercise to (a) setup a DNA + ligand simulation in explicit solvent; (b) run molecular dynamics using AMBER MD engine and (c) Visualise the trajectory using nglviewer.
+DNA-workshop
+------------
+This workshop is a hands-on exercise to (a) setup a DNA + ligand simulation in explicit solvent; (b) run molecular dynamics using AMBER MD engine and (c) Visualise the trajectory using a viewer.
 
 The workshop illustrates:
 
@@ -24,5 +24,5 @@ A Jupyter notebook and associated data files
 Contact
 -------
 
-Please direct all comments and queries to Shozeb Haider 
-
+Please direct all comments and queries to Shozeb Haider (shozeb.haider@ucl.ac.uk)
+# dna-workshop
