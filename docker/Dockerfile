@@ -23,8 +23,5 @@ RUN wget https://www.hecbiosim.ac.uk/file-store/tw2025-dna-workshop/01_Prod-0.nc
 # Copy updated lab workspace
 COPY --chown=1000:100 docker/default-37a8.jupyterlab-workspace /home/jovyan/.jupyter/lab/workspaces/default-37a8.jupyterlab-workspace
 
-# UNCOMMENT THIS LINE FOR REMOTE DEPLOYMENT
-COPY docker/jupyter_notebook_config.py /etc/jupyter/
-
 # Always finish with non-root user as a precaution.
 USER $NB_USER
